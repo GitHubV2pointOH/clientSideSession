@@ -43,7 +43,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
 
-(function(parameter){
+(function(){
 
 	mpSession = {
 
@@ -128,4 +128,4 @@
 
 	return mpSession;
 
-})('pageLoadBeginSession');
+})();
