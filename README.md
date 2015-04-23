@@ -1,6 +1,6 @@
 # clientSideSession
 javascript session
-uses client events to determine session timeout (events and tiime are dynamic) in the browser, afterwhich the server is 'updated'
+uses client events declared in a anonymous closure to determine session timeout (events and time are dynamic) in the browser, afterwhich the server is 'updated'
   (server will kill session only after the mpSession object calls controller method (or whatever you env requires)... no longer solely determined
   by page requests (default behavior with .net c# sessions).   
   
